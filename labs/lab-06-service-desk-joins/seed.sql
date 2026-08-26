@@ -1,0 +1,1 @@
+INSERT INTO people(name,role) VALUES ('Aisha Tan','requester'),('Ravi Kumar','requester'),('Mei Lin','agent'); INSERT INTO tickets(subject,requester_id,agent_id,priority,created_at) VALUES ('Dashboard total mismatch',1,3,'High','2026-08-26 09:00:00'),('CSV import rejects dates',2,NULL,'Medium','2026-08-27 08:30:00');

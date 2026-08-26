@@ -1,21 +1,17 @@
-# SC-200 Lab Index
+# AI Vibe Coding for SQL — Hands-On Labs
 
-Complete the labs in order. The labs build a single security operations scenario for Contoso Global Services.
+Course: TGS-2021002619 · Version v1.0
 
-| Lab | Title | Primary SC-200 focus |
-|-----|-------|----------------------|
-| 1 | [Configure Defender XDR Automation, Notifications, ASR, AIR, and Attack Disruption](lab-01-defender-xdr-automation-notifications-asr-air.md) | Defender XDR environment |
-| 2 | [Configure Microsoft Sentinel Roles, Retention, Workbooks, SOC Optimization, and Data Tiers](lab-02-sentinel-roles-retention-workbooks-optimization.md) | Sentinel platform |
-| 3 | [Ingest Data into Sentinel with AMA, WEF, Syslog, CEF, Azure Diagnostics, Threat Indicators, and Custom Logs](lab-03-sentinel-data-ingestion-connectors-custom-logs.md) | Data ingestion |
-| 4 | [Configure Detections with Advanced Hunting, Custom Rules, Sentinel Analytics, MITRE, and Anomalies](lab-04-detections-hunting-rules-analytics-mitre.md) | Detections |
-| 5 | [Investigate Defender XDR Incidents, Case Management, Multi-Stage Attacks, and Security Copilot](lab-05-defender-xdr-incident-investigation-case-management.md) | Incident response |
-| 6 | [Respond to Endpoint Incidents with Device Timeline, Live Response, Evidence, and Investigation Packages](lab-06-endpoint-timeline-live-response-evidence.md) | Endpoint response |
-| 7 | [Investigate Microsoft 365, Purview Audit, eDiscovery, Graph Activity Logs, and Compromised Identities](lab-07-m365-purview-entra-graph-investigation.md) | M365 investigation |
-| 8 | [Hunt in Defender XDR with KQL, Advanced Hunting Tables, Threat Analytics, and Blast Radius](lab-08-defender-xdr-kql-threat-hunting.md) | Defender hunting |
-| 9 | [Hunt in Sentinel with KQL Queries, Jobs, Summary Rules, Notebooks, MCP, and Entity Graphs](lab-09-sentinel-kql-jobs-notebooks-graphs.md) | Sentinel hunting |
-| 10 | [Automation Playbooks, Incident Runbook, SOC Metrics, and Exam Readiness](lab-10-automation-playbooks-soc-metrics-readiness.md) | Automation and readiness |
+Each lab is independent and contains its own HTML/CSS/JavaScript app, SQLite schema and data, SQL.js WebAssembly runtime, prompt contract, tests and detailed guide.
 
-## Recommended tools
-
-See [tools.md](tools.md) for portals, KQL references, and documentation links.
-
+- [Lab 1 — Prompt-to-Schema Design Studio](lab-01-prompt-to-schema/README.md)
+- [Lab 2 — SQLite To-Do List Web App](lab-02-sqlite-todo-app/README.md)
+- [Lab 3 — Customer and Order Relationship Lab](lab-03-customer-order-model/README.md)
+- [Lab 4 — Inventory CRUD Web App](lab-04-inventory-crud-app/README.md)
+- [Lab 5 — Order Query and Filter Explorer](lab-05-order-query-explorer/README.md)
+- [Lab 6 — Service Desk Join Lab](lab-06-service-desk-joins/README.md)
+- [Lab 7 — Sales Aggregation Dashboard](lab-07-sales-aggregation-dashboard/README.md)
+- [Lab 8 — Data Quality and Transaction Control](lab-08-data-quality-transactions/README.md)
+- [Lab 9 — CTEs, Indexes and Query Plans](lab-09-ctes-index-query-plan/README.md)
+- [Lab 10 — Warehouse Star Schema Dashboard](lab-10-warehouse-star-schema/README.md)
+- [Lab 11 — Capstone: AI-Built Service Operations App](lab-11-capstone-service-ops/README.md)

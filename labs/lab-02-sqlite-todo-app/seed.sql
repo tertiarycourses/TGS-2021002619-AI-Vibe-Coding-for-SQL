@@ -1,0 +1,1 @@
+INSERT INTO tasks(title,priority,due_date) VALUES ('Validate AI-generated schema','High','2026-08-28'),('Reconcile dashboard totals','Medium','2026-08-29'),('Export evidence database','Low','2026-08-30');

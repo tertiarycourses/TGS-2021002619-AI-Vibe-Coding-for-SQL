@@ -1,0 +1,1 @@
+INSERT INTO products VALUES (1,'Jasmine Tea','Beverage'),(2,'Fragrant Rice','Grocery'),(3,'Kopi Beans','Beverage'); INSERT INTO orders VALUES (1,'2026-08-25',1),(2,'2026-08-26',2),(3,'2026-08-27',1); INSERT INTO order_items VALUES (1,1,1,3,8.9),(2,1,2,1,18.5),(3,2,3,2,12),(4,3,1,4,8.9);

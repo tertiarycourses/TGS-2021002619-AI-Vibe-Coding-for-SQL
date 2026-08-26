@@ -1,77 +1,57 @@
-# TGS-2024042604 - Microsoft Security Operations Analyst (SC-200)
+# AI Vibe Coding for SQL
 
-> **Course:** WSQ - Microsoft Security Operations Analyst (SC-200)  
-> **Course Code:** TGS-2024042604  
-> **Register here:** https://www.tertiarycourses.com.sg/wsq-microsoft-security-operations-analyst-sc-200.html
+![Course cover](screenshot.png)
 
-These are the hands-on lab exercises for the WSQ Microsoft Security Operations Analyst (SC-200) course delivered by [Tertiary Infotech Academy Pte Ltd](https://www.tertiarycourses.com.sg/).
+Course code: **TGS-2021002619**
 
-This repository contains **10 guided security operations labs** aligned to the Microsoft SC-200 exam skills measured as of July 28, 2026. The labs cover Microsoft Defender XDR, Microsoft Sentinel, Defender for Endpoint, Defender for Cloud, Defender for Office 365, Defender for Identity, Defender for Cloud Apps, Microsoft Entra ID, Microsoft Purview, KQL, automation, incident response, threat hunting, and Security Copilot scenarios.
+Provider: **Tertiary Infotech Academy Pte Ltd**
 
----
+This repository contains the learner-facing courseware and 11 realistic, self-contained browser labs for AI-assisted SQL modelling, querying, transformation and warehouse delivery.
 
 ## Courseware
 
-| Artifact | File |
-|----------|------|
-| **Learner Guide (Markdown)** | [LG-Microsoft-Security-Operations-Analyst-SC-200.md](LG-Microsoft-Security-Operations-Analyst-SC-200.md) |
-| **Lab Index** | [labs/README.md](labs/README.md) |
-| **Tools and Portals** | [labs/tools.md](labs/tools.md) |
+- Editable trainer deck: `courseware/AI Vibe Coding for SQL-v1.0.pptx`
+- Learner slide PDF: `courseware/AI Vibe Coding for SQL-v1.0.pdf`
+- Learner Guide: `courseware/LG-AI Vibe Coding for SQL.docx` and PDF
+- Lesson Plan: `courseware/LP-AI Vibe Coding for SQL.docx` and PDF
+- Markdown Learner Guide: `LG-AI Vibe Coding for SQL.md`
 
-> **Note:** assessment answers, scoring rubrics, and trainer-only materials are intentionally not published in this repository.
+## Hands-on labs
 
----
+Every folder under `labs/` contains:
 
-## How to use
+- a responsive HTML/CSS/JavaScript application;
+- an in-browser SQLite database powered by sql.js/WebAssembly;
+- schema, seed data and validation queries;
+- a bounded AI prompt contract;
+- a detailed step-by-step guide and acceptance checks.
 
-1. Read the learner guide first to understand the SOC scenario and current SC-200 domains.
-2. Open each lab and complete the steps in order.
-3. Use a Microsoft security lab tenant, trainer-provided tenant, Microsoft Learn sandbox, or documentation-based worksheet depending on access.
-4. Save outputs as notes, screenshots, KQL snippets, investigation timelines, playbook designs, or readiness tables.
-5. Review the checkpoint questions at the end of each lab.
+Lab 2 is a working SQLite to-do list. Later labs cover CRUD, joins, aggregation dashboards, transaction controls, query plans, indexes, warehouse mapping and a service-operations capstone.
 
----
+To run a lab locally:
 
-## Lab catalogue
+```bash
+cd labs
+python3 -m http.server 8000
+```
 
-### Domain 1 - Manage a security operations environment
+Then open `http://localhost:8000/lab-02-sqlite-todo-app/` or another lab folder.
 
-- [Lab 1 - Configure Defender XDR Automation, Notifications, ASR, AIR, and Attack Disruption](labs/lab-01-defender-xdr-automation-notifications-asr-air.md)
-- [Lab 2 - Configure Microsoft Sentinel Roles, Retention, Workbooks, SOC Optimization, and Data Tiers](labs/lab-02-sentinel-roles-retention-workbooks-optimization.md)
-- [Lab 3 - Ingest Data into Sentinel with AMA, WEF, Syslog, CEF, Azure Diagnostics, Threat Indicators, and Custom Logs](labs/lab-03-sentinel-data-ingestion-connectors-custom-logs.md)
-- [Lab 4 - Configure Detections with Advanced Hunting, Custom Rules, Sentinel Analytics, MITRE, and Anomalies](labs/lab-04-detections-hunting-rules-analytics-mitre.md)
+## AI-to-SQL control loop
 
-### Domain 2 - Respond to security incidents
+1. Specify the schema, business rules, dialect and output contract.
+2. Generate bounded SQL with an AI assistant.
+3. Inspect every field, join, predicate and assumption.
+4. Execute in SQLite using safe parameters and transaction boundaries.
+5. Test failures and reconcile results before approval.
 
-- [Lab 5 - Investigate Defender XDR Incidents, Case Management, Multi-Stage Attacks, and Security Copilot](labs/lab-05-defender-xdr-incident-investigation-case-management.md)
-- [Lab 6 - Respond to Endpoint Incidents with Device Timeline, Live Response, Evidence, and Investigation Packages](labs/lab-06-endpoint-timeline-live-response-evidence.md)
-- [Lab 7 - Investigate Microsoft 365, Purview Audit, eDiscovery, Graph Activity Logs, and Compromised Identities](labs/lab-07-m365-purview-entra-graph-investigation.md)
+Assessment materials and answer keys are intentionally excluded from this public repository.
 
-### Domain 3 - Perform threat hunting
+## Links
 
-- [Lab 8 - Hunt in Defender XDR with KQL, Advanced Hunting Tables, Threat Analytics, and Blast Radius](labs/lab-08-defender-xdr-kql-threat-hunting.md)
-- [Lab 9 - Hunt in Sentinel with KQL Queries, Jobs, Summary Rules, Notebooks, MCP, and Entity Graphs](labs/lab-09-sentinel-kql-jobs-notebooks-graphs.md)
-- [Lab 10 - Automation Playbooks, Incident Runbook, SOC Metrics, and Exam Readiness](labs/lab-10-automation-playbooks-soc-metrics-readiness.md)
+- [Course page](https://www.tertiarycourses.com.sg/wsq-ai-vibe-coding-for-sql.html)
+- [Tertiary Infotech Academy](https://www.tertiarycourses.com.sg/)
 
----
+## License
 
-## Reference
-
-- [Microsoft SC-200 study guide](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-200)
-- [Course registration page](https://www.tertiarycourses.com.sg/wsq-microsoft-security-operations-analyst-sc-200.html)
-- [labs/tools.md](labs/tools.md) - Microsoft portals, tools, and documentation links used in the labs
-
----
-
-## Free tools used
-
-Most labs can be completed with Microsoft Learn and documentation. Hands-on labs require a Microsoft security lab tenant or trainer-provided environment.
-
-- Microsoft Defender portal
-- Microsoft Sentinel
-- Azure portal
-- Microsoft Purview portal
-- Microsoft Entra admin center
-- KQL reference
-- Markdown editor or GitHub web editor
-
+Copyright © 2026 Tertiary Infotech Academy Pte Ltd. All rights reserved.

@@ -1,0 +1,11 @@
+.DS_Store
+.env
+courseware/.env
+.claude/
+assessment/
+reference/
+qa/
+courseware/archive/
+courseware/QA-TECHNICAL-ANCHORS.csv
+__pycache__/
+*.pyc

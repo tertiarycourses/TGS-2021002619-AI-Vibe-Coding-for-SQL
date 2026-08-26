@@ -1,0 +1,1 @@
+INSERT INTO dim_date VALUES (20260825,'2026-08-25','Aug 2026'),(20260826,'2026-08-26','Aug 2026'); INSERT INTO dim_product VALUES (1,'SG-TEA','Jasmine Tea','Beverage'),(2,'SG-RICE','Fragrant Rice','Grocery'); INSERT INTO fact_sales(date_key,product_key,qty,sales_amount) VALUES (20260825,1,3,26.7),(20260825,2,2,37.0),(20260826,1,4,35.6);

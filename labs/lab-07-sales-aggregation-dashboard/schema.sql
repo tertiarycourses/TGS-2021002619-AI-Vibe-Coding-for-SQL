@@ -1,0 +1,1 @@
+PRAGMA foreign_keys=ON; CREATE TABLE products(id INTEGER PRIMARY KEY,name TEXT,category TEXT); CREATE TABLE orders(id INTEGER PRIMARY KEY,order_date TEXT,customer_id INTEGER); CREATE TABLE order_items(id INTEGER PRIMARY KEY,order_id INTEGER REFERENCES orders(id),product_id INTEGER REFERENCES products(id),qty INTEGER,unit_price REAL);
