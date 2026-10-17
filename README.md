@@ -2,9 +2,14 @@
 
 ![Course cover](screenshot.png)
 
-Course code: **TGS-2021002619**
-
-Provider: **Tertiary Infotech Academy Pte Ltd**
+| Course detail | Information |
+|---|---|
+| Course code | `TGS-2021002619` |
+| Programme | WSQ |
+| Duration | 1 day · 8 training hours + 1 hour assessment |
+| Registration | [View course details and register](https://www.tertiarycourses.com.sg/wsq-ai-vibe-coding-for-sql.html) |
+| Funding | Up to 70% WSQ course-fee funding for eligible learners (up to 50% baseline). Eligibility and terms apply — see the course page. |
+| Provider | Tertiary Infotech Academy Pte Ltd |
 
 This repository contains the learner-facing courseware and 11 realistic, self-contained browser labs for AI-assisted SQL modelling, querying, transformation and warehouse delivery.
 
